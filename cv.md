@@ -1,10 +1,6 @@
 # Anna Ryabaya
 
----
-
-## Web developer
-
----
+## _Web developer_
 
 ## Contacts
 
@@ -13,11 +9,9 @@
 - Email: altana1321@ya.ru
 - Github: [ryabaya](https://github.com/ryabaya)
 
----
-
 ## About me
 
-## I have a bachelor's degree in Information Systems and Technologies. I am a very creative person. I like programming and creating beautiful things. So, I want to take part in interesting projects.
+I have a bachelor's degree in Information Systems and Technologies. I am a very creative person. I like programming and creating beautiful things. So, I want to take part in interesting projects.
 
 ## Technological Skills
 
@@ -34,9 +28,7 @@
 - Gulp
 - graphic editors: CorelDRAW, Photoshop (basics)
 
----
-
-## Code example:
+## Code example
 
 ```
 <script>
@@ -52,20 +44,14 @@
 	</script>
 ```
 
----
-
 ## Education
 
 - Kyiv National Economic University, Computer Science, Faculty of Information Systems and Technologies, Bachelor's degree, 2011
 
----
-
-## Courses:
+## Courses
 
 - Web Developer, 2020
 - Programming in C++, 2009
-
----
 
 ## Languages:
 
