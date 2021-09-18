@@ -2,11 +2,11 @@
 
 ---
 
-- Web developer \*
+## Web developer
 
 ---
 
-## ** Contacts **
+## Contacts
 
 - Location: Kiev, Ukraine
 - Phone: +38 097 56 41 926
@@ -15,12 +15,11 @@
 
 ---
 
-** About me **
-I have a bachelor's degree in Information Systems and Technologies. I am a very creative person. I like programming and creating beautiful things. So, I want to take part in interesting projects.
+## About me
 
----
+## I have a bachelor's degree in Information Systems and Technologies. I am a very creative person. I like programming and creating beautiful things. So, I want to take part in interesting projects.
 
-** Technological Skills **
+## Technological Skills
 
 - JavaScript Basics, PHP, jQuery
 - HTML5, CSS3
@@ -37,7 +36,7 @@ I have a bachelor's degree in Information Systems and Technologies. I am a very 
 
 ---
 
-** Code example: **
+## Code example:
 
 ```
 <script>
@@ -55,20 +54,20 @@ I have a bachelor's degree in Information Systems and Technologies. I am a very 
 
 ---
 
-** Education **
+## Education
 
 - Kyiv National Economic University, Computer Science, Faculty of Information Systems and Technologies, Bachelor's degree, 2011
 
 ---
 
-** Courses: **
+## Courses:
 
 - Web Developer, 2020
 - Programming in C++, 2009
 
 ---
 
-** Languages: **
+## Languages:
 
 - Russian - Native
 - Ukrainian - Native
