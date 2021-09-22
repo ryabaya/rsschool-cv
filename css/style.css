@@ -1,0 +1,62 @@
+.wrap {
+  width: 80%;
+  margin: 20px auto;
+  height: 1000px;
+  /* border: 1px solid; */
+  /* box-shadow: 0 0 20px 2px blue; */
+  /* background: linear-gradient(45deg, #EECFBA, #C5DDE8); */
+  background: linear-gradient(60deg, rgb(236, 123, 123), #756ee0);
+}
+.main-container {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  /* background-image: url(/rsschool-cv/img/main.png);
+  background-repeat: no-repeat; */
+}
+
+.main-photo {
+  width: 30%;
+  height: 30%;
+  border: double 5px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #f00, #3020ff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.main-information {
+  width: 60%;
+  align-self: center;
+}
+h1 {
+   font-family: 'Roboto Slab', serif;
+   font-size: 40px;
+   margin: 0;
+}
+.text-main {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin-top: 5px;
+
+}
+.title-text {
+   font-family: 'Source Serif Pro', serif;
+   margin: 5px;
+   font-size: 26px;
+
+}
+.text {
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 19px;
+}
+
+hr {
+    background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.2), transparent);
+    border: 0;
+    height: 1px;
+    margin: 2px 0 22px 0;box-sizing:
+    content-box;
+    display: block;
+    }
