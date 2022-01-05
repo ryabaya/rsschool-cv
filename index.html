@@ -15,10 +15,24 @@
 
 <body>
     <div class="wrap">
+        <header class="header-nav">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
 
-
-        <section class="main-screen">
-        <div class="main-container">
+        <main class="main-screen">
+        <section class="main-container">
             <img class="main-photo" src="img/main_photo.jpg" alt="My photo" >
 
             <div class="main-information">
@@ -26,24 +40,23 @@
                 <p class="text-main">Junior Frontend Developer</p>
 
                 <div class="block-main">
-                    <h2 class="title-text">About me</h2>
-                    <article class="text">I have a bachelor's degree in Information Systems and Technologies.
+                    <h2 class="title-text" id="aboutme">About me</h2>
+                    <div class="text">I have a bachelor's degree in Information Systems and Technologies.
                        I am a very creative person. I like programming and creating beautiful things. 
                        So, I want to take part in interesting projects.
-                    </article>
+                    </div>
                 </div>
-
             </div>
-        </div>
-        <hr>
         </section>
+        <hr>
+        </main>
 
 
-        <div class="info-container">
+        <section class="info-container">
             <div class="block-left">
 
                 <div class="blocks-info">
-                    <h2 class="title-text">Contacts</h2>
+                    <h2 class="title-text" id="contacts">Contacts</h2>
                     <ul class="text">
                         <li>Location: Kiev, Ukraine</li>
                         <li>Phone: +38 097 56 41 926</li>
@@ -53,7 +66,7 @@
                 </div>
 
                 <div class="blocks-info">
-                    <h2 class="title-text">Technological Skills</h2>
+                    <h2 class="title-text" id="skills">Technological Skills</h2>
                     <ul class="text">
                         <li>HTML5, CSS3</li>
                         <li>SASS/SCSS, LESS preprocessors</li>
@@ -66,23 +79,22 @@
                         <li>graphic editors: CorelDRAW, Photoshop (basics)</li>
                     </ul>
                 </div>
-
                   
             </div>
 
             <div class="block-right">
                 <div class="blocks-info">
-                    <h2 class="title-text">Education</h2>
-                    <p class="text">
+                    <h2 class="title-text" id="education">Education</h2>
+                    <div class="text">
                         <ul class="text">
                             <li>Kyiv National Economic University, Computer Science, Faculty of Information Systems and Technologies, Bachelor’s degree, 2011</li>
                             <li>Novokakhovsky Instrument Engineering College, Finance, Junior Specialist, 2006</li>
                         </ul>                        
-                    </p>
+                    </div>
                 </div>
 
                 <div class="blocks-info">
-                    <h2 class="title-text">Courses</h2>
+                    <h2 class="title-text" id="courses">Courses</h2>
                     <ul class="text">
                         <li>Web Developer, 2020</li>
                         <li>Programming in C++, 2009</li>
@@ -90,7 +102,7 @@
                 </div>
 
                <div class="blocks-info">
-                    <h2 class="title-text">Languages</h2>
+                    <h2 class="title-text" id="languages">Languages</h2>
                     <ul class="text">
                         <li>Ukrainian - Native</li>
                         <li>Russian - Native</li>
@@ -98,9 +110,66 @@
                     </ul>
                 </div>            
             </div>
-        </div>
+        </section>
+
+        <hr>
+        <section class="projects" id="projects">
+            <h2 class="title-text">Projects</h2>
+            <div class="projects-block">                
+                <div class="project-one">
+                    <img src="./img/1project.PNG" class="project-preview" alt="Project Preview">
+                    <div class="projects-button"><a class="link-button" target="_blank" href="https://goodcardboard.ryabaya.top/"> Open project</a></div><!-- /.projects-button -->
+                    <div class="project-text">A landing page for a paper mill. Various technologies were used for layout: Bootstrap 4 and Flexbox, responsive.</div><!-- /.project-text -->                
+
+                </div><!-- /.projects-block__one -->
+
+                <div class="project-two">
+                    <img src="./img/2project.PNG" class="project-preview" alt="Project Preview">
+                    <div class="projects-button"><a class="link-button" target="_blank" href="https://money.ryabaya.top/"> Open project</a></div><!-- /.projects-button -->
+                    <div class="project-text">A landing page for a consulting company. Made with BEM and Flexbox layout, responsive. </div><!-- /.project-text -->
+
+                </div><!-- /.projects-block__two -->
+            </div><!-- /.projects-block -->
+             <hr>
+        </section><!-- /.projects -->
+
+        <section class="code" id="code">
+            <div class="blocks-info">
+                <h2 class="title-text my-code">Code example</h2>
+                
+                    <pre class="pre">
+                        <code>
+        $(document).ready(function(){
+			$('.header-contacts__button').on("click", function(){
+				$('.overlay').show();
+			});
+
+			$('.popup-close').on("click", function(){
+				$('.overlay').hide();
+			});
+		}); </code></pre>
+            </div>
+            <hr>
+        </section> 
         
-    
+        <footer class="footer">
+           <div class="footer-container">
+               <div class="footer-c">
+                    © 2022 Anna Ryabaya   
+               </div><!-- /.footer-c -->
+
+               <div class="footer-links">
+                   <a href="https://github.com/ryabaya?tab=repositories" class="footer-link__github" target="_blank">
+                       <img class="footer-img" src="./img/GitHub_Logo.png" alt="GitHub">
+                    </a>
+                    <a href="https://rs.school/js/" class="footer-link__rss" target="_blank">
+                       <img class="footer-img" src="https://rs.school/images/rs_school_js.svg" alt="RSSchool">
+                    </a>
+
+               </div><!-- /.footer-links -->
+           </div><!-- /.footer-container -->
+
+        </footer>
     
     
     </div>
