@@ -16,9 +16,8 @@
 <body>
     <div class="wrap">
 
-
         <section class="main-screen">
-        <div class="main-container">
+        <main class="main-container">
             <img class="main-photo" src="img/main_photo.jpg" alt="My photo" >
 
             <div class="main-information">
@@ -33,7 +32,7 @@
                     </article>
                 </div>
             </div>
-        </div>
+        </main>
         <hr>
         </section>
 
@@ -118,8 +117,44 @@
             </div><!-- /.projects-block -->
              <hr>
         </section><!-- /.projects -->
-       
+
+        <section class="code">
+            <div class="blocks-info">
+                <h2 class="title-text my-code">Code example</h2>
+                
+                    <pre class="pre">
+                        <code>
+        $(document).ready(function(){
+			$('.header-contacts__button').on("click", function(){
+				$('.overlay').show();
+			});
+
+			$('.popup-close').on("click", function(){
+				$('.overlay').hide();
+			});
+		}); </code></pre>
+            </div>
+            <hr>
+        </section> 
         
+        <footer class="footer">
+           <div class="footer-container">
+               <div class="footer-c">
+                    © 2022 Anna Ryabaya   
+               </div><!-- /.footer-c -->
+
+               <div class="footer-links">
+                   <a href="https://github.com/ryabaya?tab=repositories" class="footer-link__github" target="_blank">
+                       <img class="footer-img" src="./img/GitHub_Logo.png" alt="GitHub">
+                    </a>
+                    <a href="https://rs.school/js/" class="footer-link__rss" target="_blank">
+                       <img class="footer-img" src="https://rs.school/images/rs_school_js.svg" alt="RSSchool">
+                    </a>
+
+               </div><!-- /.footer-links -->
+           </div><!-- /.footer-container -->
+
+        </footer>
     
     
     </div>

@@ -2,9 +2,6 @@
   width: 80%;
   border-radius: 20px;
   margin: 20px auto;
-  /* border: 1px solid; */
-  /* box-shadow: 0 0 20px 2px blue; */
-  /* background: linear-gradient(45deg, #EECFBA, #C5DDE8); */
   background: linear-gradient(60deg, rgb(236, 123, 123), #756ee0);
 }
 hr {
@@ -22,8 +19,6 @@ hr {
   display: flex;
   padding: 20px;
   justify-content: space-around;
-  /* background-image: url(/rsschool-cv/img/main.png);
-  background-repeat: no-repeat; */
 }
 
 .main-photo {
@@ -55,8 +50,6 @@ h1 {
   font-family: "Source Serif Pro", serif;
   margin: 5px auto;
   font-size: 26px;
-  /* background-color:rgb(236, 123, 123); */
-  /* border-left: 5px solid royalblue; */
   padding: 0px 5px;  
 }
 .text {
@@ -120,4 +113,28 @@ h1 {
 .project-text {
   font-size: 18px;
   color: white;
+}
+
+.my-code {
+  text-align: center;
+}
+.pre {
+  font-size: 18px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 20px 0;
+  padding: 0 20px 20px;
+}
+.footer-c {
+font-family: "Roboto Slab",serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer-img {
+  height: 40px;
+  padding: 0 10px;
 }
