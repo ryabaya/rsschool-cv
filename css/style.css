@@ -1,9 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
 .wrap {
   width: 80%;
   border-radius: 20px;
   margin: 20px auto;
   background: linear-gradient(60deg, rgb(236, 123, 123), #756ee0);
 }
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 20px 0 2px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  padding: 0 10px;
+  line-height: 40px;
+  transition: .3s;
+}
+.nav-link:hover {
+  color:bisque;
+}
+
 hr {
   background-image: linear-gradient(to right,
       transparent,
